@@ -1,0 +1,138 @@
+body {
+    width: 716px;
+    margin: 0 auto 1.5em auto;
+    color: rgb(0, 54, 157);
+    font-size: 0.7em;
+}
+.logo {
+    width: 20%;
+}
+header {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    grid-gap: 0.5em;
+}
+img {
+    width: 15em;
+}
+header>div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 0.85em;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h3:first-of-type {
+    margin-top: 1em;
+    font-size: 1.4em;
+}
+h3:last-of-type {
+    text-align: center;
+}
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main>div:first-of-type {
+    display: grid;
+    grid-template-columns: 71% 29%;
+}
+main>div:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: 19% 18% 29% 35%;
+}
+main>div:nth-of-type(3) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.noMarginBottom {
+    margin-bottom: 3px;
+}
+.noMarginTop {
+    margin-top: 3px;
+}
+table>caption {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+table, th, td {
+    border: 1px solid rgb(0, 54, 157);
+    border-collapse: collapse;
+}
+td {
+    padding: 4px;
+}
+.rotate {
+    transform: rotate(-90.0deg);
+    height: 7em;
+    font-size: 0.8em;
+    width: 4em;
+}
+#table1 {
+    grid-area: a;
+    width: 100%;
+    height: 100%;
+}
+section {
+    display: grid;
+    grid-template: 
+    'a b' 
+    'c d' 
+    'e f'
+    /74.5% 25.5%
+    ;
+    padding: 0;
+    margin: 0;
+}
+.increaseWidth {
+    width: 5em;
+}
+#table2 {
+    grid-area: b;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 4em;
+    /* grid-column: b / span d; */
+
+}
+main>section:first-of-type>div:first-of-type {
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.bigBox {
+    border: 1px solid rgb(0, 54, 157);
+    grid-area: f;
+}
+.smallBox {
+    border-right: 1px solid rgb(0, 54, 157);
+    border-top: 1px solid rgb(0, 54, 157);
+    width: 85%;
+    height: 90%;
+}
+.ownBox {
+    border-right: 1px solid rgb(0, 54, 157);
+    width: 11.2em;
+    margin: 0;
+}
+.noBorder {
+    border-left: 1px hidden black;
+    border-top: 1px hidden black;
+}
+.hmmmm {
+    grid-area: c;
+    display: grid;
+    grid-template-columns: 38% 37%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.table3 {
+    grid-area: e;
+}

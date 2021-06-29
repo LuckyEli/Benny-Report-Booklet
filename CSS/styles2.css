@@ -1,0 +1,22 @@
+body {
+    width: 83%;
+    padding: 0.5em 0.5em 0 0.5em;
+    margin: 0 auto 0 auto;
+    font-size: 0.75em;
+    border: 9px solid rgb(0, 54, 157);
+}
+header {
+    grid-template-columns: 18% 80%;
+}
+header>div {
+    font-size: 0.65em;
+}
+table {
+    width: 100%;
+}
+td {
+    padding: 5px;
+}
+section {
+    grid-template-columns: 65% 35%;
+}
